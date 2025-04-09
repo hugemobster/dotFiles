@@ -1,0 +1,2 @@
+require("hugemobster")
+print("hi")
