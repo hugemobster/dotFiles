@@ -1025,3 +1025,5 @@ require('lazy').setup({
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+-- NOTE: My own keybinds:
+vim.keymap.set('n', '<leader>pd', ':Ex %:p:h<CR>', { desc = "Open NetRW in current file's dir" })
